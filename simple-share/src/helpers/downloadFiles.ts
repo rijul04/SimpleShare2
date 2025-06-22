@@ -1,5 +1,3 @@
-import { NextResponse } from "next/server";
-
 export async function downloadFiles(
   keys: string[]
 ): Promise<{ url: string }[]> {

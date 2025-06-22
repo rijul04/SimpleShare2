@@ -1,8 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import styles from "./page.module.css";
-import FileUpload from "@/components/FileUpload/FileUpload";
 import { downloadFiles } from "@/helpers/downloadFiles";
 import { uploadFiles } from "@/helpers/uploadFiles";
 import { useEffect, useState } from "react";
